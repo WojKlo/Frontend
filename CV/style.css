@@ -2,4 +2,65 @@ body
 {
     background-image: linear-gradient(black, gray);
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main
+{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+#description
+{
+    width: 600px;
+    height: 490px;
+    padding: 10px;
+    color: lightgray;
+    font-size: 22px;
+}
+#des
+{
+    float: left;
+    width: 325px;
+}
+#image
+{
+    float: left;
+    margin-left: 50px;
+}
+#foot
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.circle
+{
+    width: 125px;
+    height: 125px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 50%;
+}
+
+li
+{
+    list-style-type: none;
+    margin: 15px;
+}
+a
+{
+    color: lightgray;
+    text-decoration: none;
+}
+a:hover
+{
+    color: cyan;
+}
+a:visited
+{
+    text-decoration: none;
 }
