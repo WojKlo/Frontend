@@ -44,6 +44,8 @@ body
     height: 125px;
     margin: 5px 0px 5px 0px;
     border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
 }
 
 li
@@ -63,4 +65,21 @@ a:hover
 a:visited
 {
     text-decoration: none;
+}
+
+#about-me
+{
+    background-color: #575D6B;
+}
+#projects
+{
+    background-color: #456471;
+}
+#experience
+{
+    background-color: #71798E;
+}
+#call-me
+{
+    background-color: #737C88;
 }
