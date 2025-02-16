@@ -3,58 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Ordering list</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div id="container">
-            <div id="menu">
-                <div id="search-bar">
-                    <input type="text" class="text" placeholder="Czego szukasz?">
-                </div>
-                <div id="search-img">
-                    <img src="images/searchimage.svg" alt="search image">
-                </div>
-                <div id="add-food">
-                    <button class="add">Dodaj potrawe</button>
-                </div>
+            <div id="search-menu">
+                <input type="text" id="search-bar" placeholder="Czego szukasz?">
+                <img src="images/search.svg" alt="Szukaj" id="search-image">
+                <button id="add-food">Dodaj potrawe</button>
             </div>
-            <div id="food">
+            <div id="food-menu">
                 <div class="food-data">
-                    <div id="food-img">
-                        <img src="#" alt="#">
-                    </div>
-                    <div id="food-name">
-                        Sushi
-                    </div>
+                    <img src="images/sushi.jpg" class="food-img">
+                    <span>Sushi</span>
                 </div>
                 <div class="food-data">
-                    <div id="food-img">
-                        <img src="#" alt="#">
-                    </div>
-                    <div id="food-name">
-                        Spaghetti
-                    </div>
+                    <img src="images/spaghetti.png">
+                    <span>spaghetti</span>
                 </div>
                 <div class="food-data">
-                    <div id="food-img">
-                        <img src="#" alt="#">
-                    </div>
-                    <div id="food-name">
-                        Karpatka
-                    </div>
-                </div>
-                <div class="food-data">
-                    <div id="food-img">
-                        <img src="#" alt="#">
-                    </div>
-                    <div id="food-name">
-                        Lasagne
-                    </div>
+                    <img src="images/lasagne.png">
+                    <span>Lasagne</span>
                 </div>
             </div>
         </div>
-
         <script src="scripts.js"></script>
     </body>
 </html>
